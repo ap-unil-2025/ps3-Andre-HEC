@@ -51,7 +51,6 @@ def test_problem3_imports():
 def test_analyze_numbers():
     """Test number analysis function."""
     from problem3 import analyze_numbers
-
     # Test with sample data
     numbers = [1, 2, 3, 4, 5]
     result = analyze_numbers(numbers)
